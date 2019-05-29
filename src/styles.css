@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ccc;
+}
+
+.App h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.counter-container {
+  margin-top: 10px;
+  width: 210px;
+  height: 150px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-container h2 {
+  font-size: 60px;
+  color: #868289;
+}
+
+.controllers-container {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.controllers-container button {
+  width: 70px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controllers-container .increment {
+  background: #0eb927;
+}
+
+.controllers-container .increment:hover {
+  background: #08931d;
+}
+
+.controllers-container .reset {
+  background: #f3f30a;
+}
+
+.controllers-container .reset:hover {
+  background: #dfdf0a;
+}
+
+.controllers-container .decrement {
+  background: #f30906;
+}
+
+.controllers-container .decrement:hover {
+  background: #d10b09;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
